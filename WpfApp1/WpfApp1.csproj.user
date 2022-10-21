@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="FrmPdf.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Generisi_Izvestaj.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="IstorijaPregleda.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KalendarDnevni.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KalendarMesec.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KalendarNedeljni.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KreiranjePregleda.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MojProfil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NoviProfil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OglasnaTabla.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pacijenti.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Patient_Pravi_Profile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="rezerva.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SecretaryProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Tabs\KreiranjeNaloga.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Termini.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UnosAlergena.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ZaboravljenaLozinka.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Zakazani_Termin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ZdravstveniKarton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="FrmPdf.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Generisi_Izvestaj.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="IstorijaPregleda.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KalendarDnevni.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KalendarMesec.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KalendarNedeljni.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KreiranjePregleda.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MojProfil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NoviProfil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OglasnaTabla.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pacijenti.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Patient_Pravi_Profile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="rezerva.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SecretaryProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tabs\KreiranjeNaloga.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Termini.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UnosAlergena.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ZaboravljenaLozinka.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Zakazani_Termin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ZdravstveniKarton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

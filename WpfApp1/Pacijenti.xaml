@@ -1,0 +1,286 @@
+﻿<Window x:Class="WpfApp1.Pacijenti"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:util="clr-namespace:WpfApp1.Validation"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Pacijenti" Height="625" Width="1335">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="AliceBlue"/>
+                <GradientStop Color="AliceBlue" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <StackPanel Margin="-111,0,650,529">
+            <Menu Height="45" Width="543">
+
+                <MenuItem Header="HOME" FontWeight="Bold" Foreground="White" Height="45" Background="#FF006666" Click="Home_Click"/>
+                <MenuItem Header="Kalendar" FontWeight="Bold" Foreground="White" Height="45" Background="#FF006666" IsCheckable="False" Click="Kalendar_Click"/>
+
+                <MenuItem Header="Novi Termin" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Kreiranje_Pregleda_Click"/>
+
+                <MenuItem Header="Termini" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Termini_Click"/>
+
+                <MenuItem Header="Pacijenti" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" ></MenuItem>
+
+                <MenuItem Header="Novi Profil" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Kreiranje_Naloga_Click"/>
+
+                <MenuItem Header="Oglasna Tabla" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Oglasna_Tabla_Click"/>
+
+                <MenuItem Header="Izveštaji" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Izvestaji_Click"/>
+            </Menu>
+
+        </StackPanel>
+
+        <TextBox x:Name="Ime_TextBox" HorizontalAlignment="Left" BorderBrush="Black" 
+                 Margin="109,180,0,0"  FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Top" 
+                 Width="120" RenderTransformOrigin="0.522,4.702">
+
+            <TextBox.Text>
+
+                <Binding Path="ime"
+                                     UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+
+                    <Binding.ValidationRules>
+                        <util:NameValidate ValidationStep="RawProposedValue"/>
+
+
+
+
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" Grid.Column="0"></AdornedElementPlaceholder>
+                        <TextBlock Grid.Column="0" Grid.Row="1" FontSize="8" Text ="{Binding [0].ErrorContent}" FontWeight="bold"  Foreground="Red" ></TextBlock>
+                        <Label FontSize="15" Grid.Row="0" Grid.Column="1"  Foreground="Red" FontWeight="Bold" FontFamily="Segoe MDL2 Assets" Content="&#xE946;" ></Label>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+
+
+        </TextBox>
+
+        <TextBox x:Name="Prezime_TextBox" HorizontalAlignment="Left" BorderBrush="Black" Margin="332,178,0,0" 
+                 FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Top" 
+                 Width="120" RenderTransformOrigin="2.727,12.552">
+
+            <TextBox.Text>
+
+                <Binding Path="ime" UpdateSourceTrigger="PropertyChanged"  Mode="TwoWay">
+
+                    <Binding.ValidationRules>
+                        <util:NameValidate ValidationStep="RawProposedValue"/>
+                    </Binding.ValidationRules>
+                </Binding>
+
+            </TextBox.Text>
+
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" Grid.Column="0"></AdornedElementPlaceholder>
+                        <TextBlock Grid.Column="0" Grid.Row="1" FontSize="8" Text ="{Binding [0].ErrorContent}" FontWeight="bold"  Foreground="Red" ></TextBlock>
+                        <Label FontSize="15" Grid.Row="0" Grid.Column="1"  Foreground="Red" FontWeight="Bold" FontFamily="Segoe MDL2 Assets" Content="&#xE946;" ></Label>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+
+
+        </TextBox>
+
+        <TextBox x:Name="JMBG_TextBox"  FontWeight="Bold"
+                 HorizontalAlignment="Left" Margin="568,180,0,0" 
+                 TextWrapping="Wrap" VerticalAlignment="Top" BorderBrush="Black"  Width="149">
+
+            <TextBox.Text>
+
+                <Binding Path="jmbg"
+                                     UpdateSourceTrigger="PropertyChanged">
+
+                    <Binding.ValidationRules>
+                        <util:JmbgValidate ValidationStep="RawProposedValue"/>
+
+
+
+
+                    </Binding.ValidationRules>
+                </Binding>
+
+            </TextBox.Text>
+
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" Grid.Column="0"></AdornedElementPlaceholder>
+                        <TextBlock Grid.Column="0" Grid.Row="1" FontSize="8" Text ="{Binding [0].ErrorContent}" FontWeight="bold"  Foreground="Red" ></TextBlock>
+                        <Label FontSize="15" Grid.Row="0" Grid.Column="1"  Foreground="Red" FontWeight="bold" FontFamily="Segoe MDL2 Assets" Content="&#xE946;" ></Label>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+
+
+        </TextBox>
+
+        <ComboBox Margin="887,177,308,394" Background="White" FontWeight="Bold" >
+            <ComboBoxItem Content="Redovan_Nalog" IsSelected="True" FontWeight="Bold"/>
+            <ComboBoxItem Content="Guest_Nalog"></ComboBoxItem>
+        </ComboBox>
+
+        <Button Content="Kreiraj Nalog" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="1166,178,0,0" VerticalAlignment="Top" Background="#FF006666" Height="32" Width="100" Click="Kreiraj_Nalog_Click"/>
+
+        <ListView Margin="41,264,41,132" ItemsSource="{Binding patients}" FontWeight="Bold" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Ime" Width="130" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Ime}" Foreground="Black" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Prezime" Width="130" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Prezime}" Foreground="Black" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="JMBG" Width="120" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding JMBG}" Foreground="Black" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Datum rođenja " Width="150" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Datum_Rodjenja}" Foreground="Black" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Ulica i broj" Width="135" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Ulica}" Foreground="Black" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Grad" Width="120" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Grad}" Foreground="Black" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Kontakt telefon" Width="110" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Broj_Telefona}" Foreground="Black" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="E-Mail adresa" Width="165" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Mail_Adresa}"  TextDecorations="Underline" Foreground="Blue" HorizontalAlignment="Center" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Tip naloga" Width="100" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TipNaloga}" Foreground="Black" HorizontalAlignment="Center" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Profil" Width="80" >
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Profl" Foreground="white" Width="70"  Background="#FF006666"></Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+
+
+
+
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Button Content="Izmeni Nalog" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="1002,512,0,0" VerticalAlignment="Top" Background="#FF006666" Height="32" Width="100"/>
+        <Button Content="Obriši Nalog" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="1194,512,0,0" VerticalAlignment="Top" Background="#FF006666" Height="32" Width="100"/>
+
+
+
+        <Image Source="C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\Images\loupe.png" HorizontalAlignment="Left" Height="38" Margin="51,91,0,0" VerticalAlignment="Top" Width="43"/>
+
+
+        <Label Content="Prezime: " FontWeight="Bold" FontSize="10" HorizontalAlignment="Left" Margin="260,178,0,0" VerticalAlignment="Top" Height="22"/>
+        <Label Content="Ime: " FontWeight="Bold" FontSize="10" HorizontalAlignment="Left" Margin="51,174,0,0" VerticalAlignment="Top" Height="24" RenderTransformOrigin="0.416,6.568"/>
+        <Label Content="JMBG: " FontSize="10" FontWeight="Bold" HorizontalAlignment="Left" Margin="496,173,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label Content="Pretraži: " FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="135,103,0,0" VerticalAlignment="Top" Height="26"/>
+
+        <Label Content="Tip naloga: " FontSize="10" FontWeight="Bold" HorizontalAlignment="Left" Margin="774,177,0,0" VerticalAlignment="Top" Height="24"/>
+
+
+    </Grid>
+</Window>
