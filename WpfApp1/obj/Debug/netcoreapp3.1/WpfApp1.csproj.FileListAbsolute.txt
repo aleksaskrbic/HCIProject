@@ -1,0 +1,158 @@
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\LOG_IN.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\RegistrujPacijenta.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\LOG_IN.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\RegistrujPacijenta.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\SecretaryProfile.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\SecretaryProfile.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Calendar.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Registration.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Calendar.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Registration.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\PatientProfile.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\PatientProfile.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZdravstveniKarton.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZdravstveniKarton.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ObrisanPacijent.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ObrisanPacijent.baml
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\UpdatedPatient.g.cs
+C:\Users\Aleksa\Desktop\HCI\KT2\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\UpdatedPatient.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\SecretaryProfile.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZdravstveniKarton.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\SecretaryProfile.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZdravstveniKarton.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZaboravljenaLozinka.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZaboravljenaLozinka.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Zakazani_Termin.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Zakazani_Termin.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\IstorijaPregleda.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\IstorijaPregleda.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Patient_Pravi_Profile.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Patient_Pravi_Profile.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Generisi_Izvestaj.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Generisi_Izvestaj.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Tabs\KreiranjeNaloga.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Tabs\KreiranjeNaloga.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\rezerva.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\rezerva.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\FrmPdf.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\FrmPdf.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KreiranjePregleda.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KreiranjePregleda.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\UnosAlergena.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\UnosAlergena.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MojProfil.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MojProfil.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\OglasnaTabla.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\OglasnaTabla.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Pacijenti.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Pacijenti.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\NoviProfil.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\NoviProfil.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarMesec.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarMesec.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarNedeljni.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarNedeljni.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarDnevni.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarDnevni.baml
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Termini.g.cs
+C:\Users\Aleksa\Desktop\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Termini.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.exe
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.deps.json
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\bin\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\FrmPdf.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Generisi_Izvestaj.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\IstorijaPregleda.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarDnevni.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarMesec.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarNedeljni.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KreiranjePregleda.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MojProfil.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\NoviProfil.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\OglasnaTabla.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Pacijenti.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Patient_Pravi_Profile.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\rezerva.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\SecretaryProfile.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Tabs\KreiranjeNaloga.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Termini.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\UnosAlergena.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZaboravljenaLozinka.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Zakazani_Termin.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZdravstveniKarton.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\FrmPdf.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Generisi_Izvestaj.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\IstorijaPregleda.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarDnevni.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarMesec.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KalendarNedeljni.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\KreiranjePregleda.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\MojProfil.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\NoviProfil.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\OglasnaTabla.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Pacijenti.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Patient_Pravi_Profile.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\rezerva.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\SecretaryProfile.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Tabs\KreiranjeNaloga.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Termini.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\UnosAlergena.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZaboravljenaLozinka.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\Zakazani_Termin.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\ZdravstveniKarton.baml
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.g.resources
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\Aleksa\Desktop\III Godina\HCI\HCIProjekat\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.genruntimeconfig.cache

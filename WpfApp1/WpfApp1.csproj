@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bela_tabla.png" />
+    <None Remove="beli_izvestaj.png" />
+    <None Remove="beli_kalendar.png" />
+    <None Remove="beli_pacijent.png" />
+    <None Remove="book-of-black-cover-closed.png" />
+    <None Remove="calendar-interface-symbol-tool.png" />
+    <None Remove="Crni.png" />
+    <None Remove="crni_check.png" />
+    <None Remove="crni_doktor.png" />
+    <None Remove="kalendar.jpg" />
+    <None Remove="loupe.png" />
+    <None Remove="noticeboard.png" />
+    <None Remove="patient.png" />
+    <None Remove="profile.png" />
+    <None Remove="profile_picture.jpg" />
+    <None Remove="simbol.png" />
+    <None Remove="stethoscope.png" />
+    <None Remove="user.png" />
+    <None Remove="user2.png" />
+    <None Remove="zdr_patient.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bela_tabla.png" />
+    <Resource Include="beli_izvestaj.png" />
+    <Resource Include="beli_kalendar.png" />
+    <Resource Include="beli_pacijent.png" />
+    <Resource Include="book-of-black-cover-closed.png" />
+    <Resource Include="calendar-interface-symbol-tool.png" />
+    <Resource Include="Crni.png" />
+    <Resource Include="crni_check.png" />
+    <Resource Include="crni_doktor.png" />
+    <Resource Include="kalendar.jpg" />
+    <Resource Include="loupe.png" />
+    <Resource Include="noticeboard.png" />
+    <Resource Include="patient.png" />
+    <Resource Include="profile.png" />
+    <Resource Include="profile_picture.jpg" />
+    <Resource Include="simbol.png" />
+    <Resource Include="stethoscope.png" />
+    <Resource Include="user.png" />
+    <Resource Include="user2.png" />
+    <Resource Include="zdr_patient.png" />
+  </ItemGroup>
+
+</Project>

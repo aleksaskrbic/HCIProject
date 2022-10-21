@@ -1,0 +1,130 @@
+﻿<Window x:Class="WpfApp1.OglasnaTabla"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="OglasnaTabla" Height="678" Width="1087">
+    <Grid Margin="0,0,0,4">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="AliceBlue"/>
+                <GradientStop Color="AliceBlue" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <StackPanel Margin="-95,10,423,574">
+            <Menu Height="45" Width="543">
+
+                <MenuItem Header="HOME" FontWeight="Bold" Foreground="White" Height="45" Background="#FF006666" Click="Home_Click"/>
+                <MenuItem Header="Kalendar" FontWeight="Bold" Foreground="White" Height="45" Background="#FF006666" IsCheckable="False" Click="Kalendar_Click"/>
+
+                <MenuItem Header="Novi Termin" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Kreiranje_Pregleda_Click"/>
+
+                <MenuItem Header="Termini" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Termini_Click"/>
+
+                <MenuItem Header="Pacijenti" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Pacijenti_Click"/>
+
+                <MenuItem Header="Novi Profil" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Kreiranje_Naloga_Click"/>
+
+                <MenuItem Header="Oglasna tabla" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" ></MenuItem>
+
+                <MenuItem Header="Izveštaji" FontWeight="Bold" Foreground="White"  Background="#FF006666" Height="45" Click="Izvestaji_Click"/>
+            </Menu>
+
+        </StackPanel>
+
+        <TextBox HorizontalAlignment="Left" FontWeight="Bold" Margin="754,155,0,0" Text="" BorderBrush="Black" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <TextBox HorizontalAlignment="Left" FontWeight="Bold" Margin="754,205,0,0" Text="" BorderBrush="Black" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <DatePicker HorizontalAlignment="Left" FontWeight="Bold" Margin="754,261,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox HorizontalAlignment="Left" FontWeight="Bold" Margin="653,308,0,0" Text="" BorderBrush="Black" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" Height="96"/>
+
+        <Button Content="Kreiraj obaveštenje" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="575,487,0,0" VerticalAlignment="Top" Height="36" Click="Kreiraj_Click" Background="#FF006664">
+
+        </Button>
+
+        <Button Content="Izmeni obaveštenje" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="754,487,0,0" VerticalAlignment="Top" Height="36" Click="Izmeni_Click" Background="#FF006666">
+
+        </Button>
+        <Button Content="Obriši obaveštenje" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="905,487,0,0" VerticalAlignment="Top" Height="36" Click="Obriši_Click" Background="#FF006666">
+
+        </Button>
+
+
+        <ListView Name="Obavestenja" Margin="30,130,547,135" ItemsSource="{Binding obavestenja}" BorderBrush="Black">
+            <ListView.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="AliceBlue"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ListView.Background>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="{Binding ActualWidth, ElementName=Obavestenja}" Margin="0 0 0 10">
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="white"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.15*"></ColumnDefinition>
+                            <ColumnDefinition Width="0.15"></ColumnDefinition>
+                            <ColumnDefinition Width="0.15"></ColumnDefinition>
+
+
+
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="1" Grid.Column="0" FontWeight="Bold" Text="Naziv obaveštenja: " 
+                                   HorizontalAlignment="Left" FontSize="13"></TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="0" FontWeight="Bold" Text="{Binding Naziv_Obavestenja}" 
+                                   HorizontalAlignment="Center" FontSize="13"></TextBlock>
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" FontWeight="Bold" Text="Vrsta obaveštenja: "
+                                   HorizontalAlignment="left" FontSize="13"></TextBlock>
+                        <TextBlock Grid.Row="3" Grid.Column="0" FontWeight="Bold" Text="{Binding Vrsta_Obavestenja}"
+                                   HorizontalAlignment="Center" FontSize="13"></TextBlock>
+
+
+                        <TextBlock Grid.Row="5" Grid.Column="0" FontWeight="Bold" Text="Datum obaveštenja: "
+                                   HorizontalAlignment="Left" FontSize="13"></TextBlock>
+                        <TextBlock Grid.Row="5" Grid.Column="0" FontWeight="Bold" Text="{Binding Datum_Obavestenja}"
+                                   HorizontalAlignment="Center" FontSize="13"></TextBlock>
+
+                        <TextBlock Grid.Row="7" Grid.Column="0" FontWeight="Bold" Text="Tekst :"
+                                   HorizontalAlignment="Left" FontSize="13"></TextBlock>
+                        <TextBlock Grid.Row="7" Grid.Column="0" FontWeight="Bold" Text="{Binding Tekst_Obavestenja}"
+                                   HorizontalAlignment="Right" FontSize="13"></TextBlock>
+
+
+
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label Content="Naziv obaveštenja:" FontWeight="Bold" HorizontalAlignment="Left" Margin="589,155,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vrsta obaveštenja:" FontWeight="Bold" HorizontalAlignment="Left" Margin="589,205,0,0" VerticalAlignment="Top"/>
+        <Label Content="Datum obaveštenja:" FontWeight="Bold" HorizontalAlignment="Left" Margin="589,259,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ostala obaveštenja:" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Margin="34,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tekst:" FontWeight="Bold" HorizontalAlignment="Left" Margin="589,328,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="330" Margin="575,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="438"/>
+        <Label Content="Kreiraj obaveštenje:" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Margin="589,89,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

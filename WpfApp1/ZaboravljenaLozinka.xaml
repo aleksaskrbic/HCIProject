@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApp1.ZaboravljenaLozinka"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        
+        xmlns:util="clr-namespace:WpfApp1.Validation"
+        mc:Ignorable="d"
+        Title="ZaboravljenaLozinka" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="white"/>
+                <GradientStop Color="AliceBlue" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="206,137,0,0" Text="Unesite Vašu mail adresu, kako bi Vam stigla nova lozinka!" FontSize="15" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="425"/>
+        <Label Content="E-Mail Adresa :" HorizontalAlignment="Left" Margin="133,212,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="145"/>
+        <TextBox x:Name="Mail_Adresa" 
+                 HorizontalAlignment="Left"  TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="176" Height="24" RenderTransformOrigin="0.5,0.5" Margin="328,217,0,0" FontWeight="Bold" >
+
+            <TextBox.Text>
+
+                <Binding Path="Email"
+                         UpdateSourceTrigger="PropertyChanged"
+                         Mode="TwoWay">
+                <Binding.ValidationRules>
+                    <util:MailValidation ValidationStep="RawProposedValue" />
+                </Binding.ValidationRules>
+            </Binding>
+
+            </TextBox.Text>
+
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" Grid.Column="0"></AdornedElementPlaceholder>
+                        <TextBlock Grid.Column="0" Grid.Row="1" FontSize="8" Text ="{Binding [0].ErrorContent}" FontWeight="bold"  Foreground="Red" ></TextBlock>
+                        <Label FontSize="15" Grid.Row="0" Grid.Column="1"  Foreground="Red" FontWeight="Bold" FontFamily="Segoe MDL2 Assets" Content="&#xE946;" ></Label>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+
+        </TextBox>
+        <Button Content="Pošalji zahtev!" HorizontalAlignment="Left" Margin="340,265,0,0" Foreground="White" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Background="#FF006667" Width="152" Click="Zaboravi_Click"/>
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" Source="/simbol.png" RenderTransformOrigin="0.701,0.503"/>
+        <Button Content="Odustani" HorizontalAlignment="Left" Margin="341,327,0,0" Foreground="White" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Background="#FF006667" Width="151" Click="Nazad_Click"/>
+
+    </Grid>
+</Window>
